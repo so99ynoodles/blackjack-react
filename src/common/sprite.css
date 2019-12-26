@@ -1,0 +1,460 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-sprite-card_back {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -100px 0px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_club_01 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -600px -300px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_club_02 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -200px 0px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_club_03 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: 0px -150px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_club_04 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -100px -150px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_club_05 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -200px -150px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_club_06 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -300px 0px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_club_07 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -300px -150px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_club_08 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -400px 0px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_club_09 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -400px -150px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_club_10 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: 0px -300px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_club_11 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -100px -300px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_club_12 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -200px -300px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_club_13 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -300px -300px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_diamond_01 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -400px -300px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_diamond_02 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -500px 0px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_diamond_03 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -500px -150px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_diamond_04 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -500px -300px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_diamond_05 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: 0px -450px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_diamond_06 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -100px -450px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_diamond_07 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -200px -450px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_diamond_08 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -300px -450px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_diamond_09 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -400px -450px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_diamond_10 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -500px -450px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_diamond_11 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -600px 0px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_diamond_12 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -600px -150px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_diamond_13 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: 0px 0px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_heart_01 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -600px -450px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_heart_02 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -700px 0px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_heart_03 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -700px -150px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_heart_04 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -700px -300px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_heart_05 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -700px -450px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_heart_06 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: 0px -600px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_heart_07 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -100px -600px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_heart_08 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -200px -600px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_heart_09 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -300px -600px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_heart_10 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -400px -600px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_heart_11 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -500px -600px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_heart_12 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -600px -600px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_heart_13 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -700px -600px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_spade_01 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -800px 0px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_spade_02 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -800px -150px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_spade_03 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -800px -300px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_spade_04 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -800px -450px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_spade_05 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -800px -600px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_spade_06 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: 0px -750px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_spade_07 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -100px -750px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_spade_08 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -200px -750px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_spade_09 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -300px -750px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_spade_10 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -400px -750px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_spade_11 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -500px -750px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_spade_12 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -600px -750px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.icon-sprite-card_spade_13 {
+  background-image: url(../assets/img/sprite.png);
+  background-position: -700px -750px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  display: inline-block;
+}

@@ -1,0 +1,20 @@
+.modal {
+  animation: pop .8s forwards;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 100;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 100;
+    transform: scale(1);
+  }
+}

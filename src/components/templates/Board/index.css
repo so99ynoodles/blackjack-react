@@ -1,0 +1,58 @@
+.board {
+  margin: auto;
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background: radial-gradient(#e0200b, #750b00);
+  border-radius: 10px;
+}
+
+.board__background {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: 600px;
+  box-sizing: border-box;
+  border-radius: 10px 10px 50% 50%;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  background: radial-gradient(#329b57, #25773b);
+  overflow: hidden;
+}
+
+.board__userStatus {
+  position: absolute;
+  bottom: 0;
+}
+
+.board__btns {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.board__btns--hit-stand-btns {
+  animation: pop .8s forwards;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 100;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 100;
+    transform: scale(1);
+  }
+}

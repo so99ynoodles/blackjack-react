@@ -1,0 +1,19 @@
+.card-enter {
+  opacity: 0;
+  transform: translateY(-600px);
+  transition: all .8s;
+}
+
+.card-enter-active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.card-leave {
+  opacity: 0;
+  transition: all .1s;
+}
+
+.card-leave-actice {
+  opacity: 0;
+}
