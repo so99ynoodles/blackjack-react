@@ -51,7 +51,6 @@
     "@storybook/addon-actions": "^4.1.7",
     "@storybook/addon-links": "^4.1.7",
     "@storybook/react": "^4.1.7",
-    "babel-loader": "^8.0.4",
     "gulp": "^4.0.0",
     "gulp-image-resize": "^0.13.0",
     "gulp-sass": "^4.0.2",
